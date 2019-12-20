@@ -1,6 +1,6 @@
 {
   "name": "react2angular",
-  "version": "4.0.6",
+  "version": "1.0.1",
   "description": "The easiest way to embed React components in Angular 1 apps!",
   "main": "index.js",
   "main:esnext": "index.es2015.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/coatue-oss/react2angular.git"
+    "url": "git+ssh://git@github.com/SPSCommerce/react2angular.git"
   },
   "keywords": [
     "react",
@@ -78,6 +78,6 @@
     "@types/lodash.frompairs": "^4.0.5",
     "angular": ">=1.5",
     "lodash.frompairs": "^4.0.1",
-    "ngcomponent": "^4.1.0"
+    "ngcomponent": "SPSCommerce/ngcomponent#4.0.0"
   }
 }
