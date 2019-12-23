@@ -323,6 +323,7 @@ describe('react2angular', () => {
     })
 
     it('should take injections, which override props', () => {
+      // @ts-ignore
       spyOn($http, 'get').and.returnValue($q.resolve({ data: '$http response' }))
       const scope = Object.assign($rootScope.$new(true), {
         foo: 'FOO'
